@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ผังองค์กรสภา สไตล์ Miro</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+    * {
+      font-family: "Prompt", sans-serif;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px;
+      background: #121212;
+      color: #f5c518;
+    }
+
+    h1 {
+      text-align: center;
+      color: #f5c518;
+    }
+
+    .org-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 16px rgba(255, 0, 0, 0.3);
+    }
+
+    .title {
+      font-size: 1.1em;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #e74c3c;
+    }
+
+    .highlight {
+      background: #2d1f0d;
+      border-left: 6px solid #e74c3c;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 0;
+      font-size: 0.95em;
+      color: #f5c518;
+    }
+
+    li {
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ผังองค์กรสภานักศึกษา</h1>
+
+  <div class="org-grid">
+
+    <div class="card highlight">
+      <div class="title">ประธานสภา</div>
+      <ul>
+        <li>บริหารองค์กร</li>
+        <li>เป็นตัวแทนของสภา</li>
+        <li>ดูแลสมาชิก</li>
+        <li>ใช้สิทธิ์ตัดสินใจ</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="title">รองประธานสภา คนที่ 1</div>
+      <ul>
+        <li>ช่วยงานประธาน</li>
+        <li>ดูแลฝ่ายต่างๆ</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="title">รองประธานสภา คนที่ 2</div>
+      <ul>
+        <li>ช่วยงานประธาน</li>
+        <li>ดูแลฝ่ายต่างๆ</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="title">ที่ปรึกษาฝ่ายวางแผน</div>
+      <ul>
+        <li>เป็นพี่เลี้ยงประธาน</li>
+        <li>ควบคุมกำกับงาน</li>
+        <li>วางแผนองค์กร</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="title">เลขานุการ</div>
+      <ul>
+        <li>จดบันทึกประชุม</li>
+        <li>จัดการประชุม</li>
+        <li>ดูแล Flow งาน</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="title">เหรัญญิก</div>
+      <ul>
+        <li>ควบคุมการเงิน</li>
+        <li>จัดสรรงบประมาณ</li>
+        <li>ดูแลบิล ใบเสร็จ</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="title">พิธีกร / ปฏิคม</div>
+      <ul>
+        <li>เปิดงาน</li>
+        <li>ดูแลแขก/อาจารย์</li>
+        <li>ประสานงานกับเลขา</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="title">ประชาสัมพันธ์</div>
+      <ul>
+        <li>แอดมินเพจ</li>
+        <li>กราฟิก</li>
+        <li>โสตฯ ถ่ายรูป/วิดีโอ</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="title">กิจการภายใน</div>
+      <ul>
+        <li>ออกแบบ-จัดสถานที่</li>
+        <li>ออกแบบกิจกรรม</li>
+        <li>ดูแลอาหาร/ปฐมพยาบาล</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="title">กิจการภายนอก</div>
+      <ul>
+        <li>ชม. กยศ.</li>
+        <li>หาสปอนเซอร์</li>
+        <li>ประสานงานนอกองค์กร</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="title">พิทักษ์สิทธินักศึกษา</div>
+      <ul>
+        <li>รับคำร้อง</li>
+        <li>ประชุมกับหน่วยงาน</li>
+        <li>สำรวจพื้นที่จริง</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="title">ฝ่ายประเมินและติดตามผล</div>
+      <ul>
+        <li>ติดตามผลกิจกรรม</li>
+        <li>จัดแบบประเมิน</li>
+        <li>สรุปผลการดำเนินงาน</li>
+        <li>ทำรายงานเสนอประธาน</li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
 
