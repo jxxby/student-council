@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>ผังองค์กรสภา สไตล์ Miro</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
     * {
       font-family: "Prompt", sans-serif;
       box-sizing: border-box;
@@ -12,12 +14,13 @@
     body {
       margin: 0;
       padding: 40px;
-      background: #f9f9fb;
+      background: #121212;
+      color: #f5c518;
     }
 
     h1 {
       text-align: center;
-      color: #2c3e50;
+      color: #f5c518;
     }
 
     .org-grid {
@@ -29,33 +32,36 @@
     }
 
     .card {
-      background: white;
+      background: #1e1e1e;
       border-radius: 16px;
       padding: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-      transition: transform 0.2s ease;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .card:hover {
       transform: scale(1.03);
+      box-shadow: 0 6px 16px rgba(255, 0, 0, 0.3);
     }
 
     .title {
       font-size: 1.1em;
       font-weight: bold;
       margin-bottom: 10px;
-      color: #2980b9;
+      color: #e74c3c;
     }
 
     .highlight {
-      background: #fef6e4;
-      border-left: 6px solid #f39c12;
+      background: #2d1f0d;
+      border-left: 6px solid #e74c3c;
     }
 
     ul {
       padding-left: 20px;
       margin: 0;
       font-size: 0.95em;
+      color: #f5c518;
     }
 
     li {
@@ -69,7 +75,7 @@
 
   <div class="org-grid">
 
-    <div class="card">
+    <div class="card highlight">
       <div class="title">ประธานสภา</div>
       <ul>
         <li>บริหารองค์กร</li>
@@ -167,7 +173,7 @@
       </ul>
     </div>
 
-    <div class="card highlight">
+    <div class="card">
       <div class="title">ฝ่ายประเมินและติดตามผล</div>
       <ul>
         <li>ติดตามผลกิจกรรม</li>
